@@ -1,0 +1,112 @@
+1. time: 11AM to 12.30PM 1pm
+2. new zoom link from tomorrow
+3. install zoom in laptop (to do)
+4. sign in to zoom using your gmail id
+5. login to the class at 11AM using new meeting id and passcode
+
+how to reach
+1. whatsapp 9481787493 -name B94
+2. Akshara mobile app chat 
+3. slack channel
+4. email: info@aksharatraining.com
+  
+open the cmd prompt
+type 'java -version' and press enter
+   
+windows + shift + s
+------------------------------------------------------------- 
+java--->>coding language
+
+language --> media of communication
+Bhanu-> "plz post the screeshot"--> 
+Bhanu --instructions---> students    
+
+
+1.name my bhanu is
+2. my name is Bhanu
+
+to give instructions to the computer---> language 
+low level /m l l ---> 0 1........binary language
+high level ---> english like---> c c++ java python php....
+
+print(Bhanu);-----> english to 000001111 
+transaltion --. converting from HLL to LLL 
+softwater-> transaltor 
+ 2 types
+1. compilation -java
+2. interpretation-python
+
+
+most of the programms are compiled ---> c C++ java 
+most of scripting languages are interpreted--> VBS JS shell....python
+
+to execute java code we need JDK
+Java Development kit 
+java compiler
+JRE
+
+my 1st java code
+1. open any text editor such as notepad , Eclipse notepad ++
+2. write the code class Demo1 {  }
+3. save it as Demo1.java in the required location
+4. open the cmd goto the location where above file is saved
+5. execute below cmd
+   javac Demo1.java
+6. we get Demo1.class
+
+
+Demo1.java --> contains actual java code--> source code
+Demo1.class--> contains compiled code--> byte  code
+
+9481787493
+
+1. what is the software req to use java?
+   JDK 21
+2. how to write java code? do we need any xtra s/w?
+   any text editor --> Notepad
+3. what is the file extension of source code?
+   .java
+4. how to comple this source code?
+   javac filename--> javac Demo1.java
+5. if we compile what we get?
+   .class--> Demo1.class
+6. what is it called as ?
+   byte code
+7. can we run source code or byte code or both?
+ only byte code
+8. how to execute byte code?
+  java Demo1     (byte code file name without extention)
+9. to excute code which code is mandatory?
+   main method 
+10. what is the format of main method?
+   public static void main(String[] args) {  }
+
+
+Every time if we do any changes in source code what we should do?
+1. save---> file-Save or ctrl + s
+2. compile--> javac Demo1.java
+3. run--> java Demo1
+
+what dev do?
+1. write code
+2. compile
+3. execute
+4. debug
+5. review
+6. SCM (github)
+7. build 
+
+IDEs---> Integrated Dev Enviroment  
+eclipse intelij...
+
+
+
+
+
+
+
+
+
+
+
+

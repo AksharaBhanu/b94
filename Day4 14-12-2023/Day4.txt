@@ -1,0 +1,107 @@
+in eclipse
+
+workspace/java-project/src/package/Demo.java
+
+workspace/java-project/bin/package/Demo.class
+
+variable--> placeholder or container to store the data/information we can change it later 
+ why the name 'variable'--. we can change the value stored under this memory location
+
+constant--> placeholder or container to store the data/information which we cant change it later
+
+how to create a constant in java - using a keyword 'final'
+
+how to declare a variable in java?
+datatype variablename;
+
+can we initialize a variable while declaring ?
+yes
+datatype variablename=value;
+ex: int i=10;
+
+keywords
+1. reserve word in java ( we cant use it for any other purpose)
+2. we have 51 keywords
+   https://docs.oracle.com/javase/specs/jls/se21/html/jls-3.html#jls-3.9
+abstract   continue   for          new         switch
+assert     default    if           package     synchronized
+boolean    do         goto         private     this
+break      double     implements   protected   throw
+byte       else       import       public      throws
+case       enum       instanceof   return      transient
+catch      extends    int          short       try
+char       final      interface    static      void
+class      finally    long         strictfp    volatile
+const      float      native       super       while
+_ (underscore)
+
+3. all keywords are in lower case
+
+4. each keyword has their specific meaning and purpose
+
+    int ----> meaning integer (number)
+		purpose is to declare a variable specify data type of a variable
+
+
+identifers --> user defined names such as package name, class name , methods name, variable.....
+
+rules for specifing identifers
+1. no keywords 
+2. it can contain only  a-z A-Z 0-9 $ _
+3. it cant start with a digit
+4. it casesensitive
+5. no max limit
+
+Datatype
+kind of information stored in variable
+
+10
+
+10.23
+
+True False boolean
+
+'a'  'p'   char
+
+int i=100;
+int j=-23;
+
+char c='a';
+
+boolean b=true;
+
+how many primitive DT we have in java?
+8
+byte short int long float double char boolean
+
+how many numeric DT/signed DT we have...
+6 byte short int long float double
+
+how many non-numeric DT/unsigned we have...
+2
+char boolean
+
+boolean can be only true or false
+char is defined within ''
+String is defined within ""
+empty char not allowed
+default datatype for integral is int , for long we have to use l or L at the end
+default datatype for floating point is double, for float we have to use f or F at the end
+
+1. create github account -free
+
+9481787493-Bhanu
+7204842332-Divya
+
+
+
+
+
+
+
+
+
+
+
+
+

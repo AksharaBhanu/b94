@@ -1,0 +1,83 @@
+java--> high level language (english like)
+convert it into LLL (MLL) binary langauge
+software--> compiler
+
+how do we get java compiler--> we should install JDK
+
+write code--> soruce code--> .java
+compile it-----> byte code--> .class
+
+how to compile
+javac Demo1.java
+
+how to run
+java Demo1
+
+excute it we need main method
+class Demo1
+{
+	public static void main(String[] args)
+	{
+
+	}
+}
+
+IDEs--> 
+1. write code
+2. compile
+3. run
+4. debug
+5. review
+6. SCM (github)
+7. build...
+eclipse
+
+1. workspace--> folder where eclipse will store all the code (all files)
+2. open the eclipse IDE
+3. browse and select the requierd workspace folder and click launch
+4. close the welcome screen
+5. create a java project
+
+window->show view--> package explorer
+
+JRE---> java runtime environment
+src---> source--> we store our .java files
+we always store the .java unders a package
+
+imp points
+1. always use package explorer
+2. always create a package under src before creating any java code
+3. always create .java file under the package
+
+variable-- container or place holder used to store some data /information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
