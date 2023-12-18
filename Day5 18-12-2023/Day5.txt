@@ -2,5 +2,29 @@
 2. zoom chat
 3. Akshara chat 
 
-every day after the class 
+DataType---> Type of info or kind of data ....
+2 types---> prmitive & non-primitive
+primitive---> numeric(byte-1 short-2 int-4 long-8| float-4  double-8) & non-numeric (char-2 boolean-1bit)
+ -128 to 0 to 127
 
+
+other than primitive - everything else is non-primitive --> Class (String) Array Intercace & Enum
+
+a variable can hold only one value at a time , if we assign new old , old value is replaced with new value.
+final keyword
+
+operators
+
+symbol which performs specific operation
+operands --> input required to perform operation
+
+1. arithmetic + - * / % 
+   i/p number o/p number
+
+2. assignment = += -= *= /= %=
+2a. increment & decrement operator
+3. comparision
+4. logical 
+5. conditional operator
+6. intance operator
+7. bitwise operator
