@@ -1,0 +1,157 @@
+Arithmetic-> + - * / %
+assignment--> =  += -= *= /= %=
+increment ++ decrement --
+
+relational operator 
+> < >= <= == !=---> any data type except boolean
+boolean we can use only == and  !=
+boolean can be compared with another boolean value 
+we can compare int with float or with char
+
+logical operator
+AND--> &&
+OR --> ||
+NOT--> !
+
+a && b==>
+T	T	T
+T	F	F
+F	T	F
+F	F	F
+
+
+a || b===.
+T	T	T
+T	F	T
+F	T	T
+F	F	F
+
+!(a)
+T	F
+F	T
+
+bitwise operator
+& AND
+|  OR
+^  XOR
+~  NOT
+>> right shift
+<< left shift
+>>> unsigned right shift
+
+conditional operator condition? exp1: exp2;
+
+functionality
+Arithmetic,assignment,update,relational,logical,bitwise,conditional, instanceof
+
+number of operands 
+a+b  a && b a>b ... binary operator
+a++  !a  -a ......  unary operator
+?:; .....<		 ternary operator 
+----------------------------------------------------------------------------------------------------------------
+In Java, operators are symbols used to perform operations on variables and values. Here are the types of operators in Java:
+
+Arithmetic Operators: Used for basic mathematical operations.
+
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Modulus (remainder) (%)
+Increment (++) and Decrement (--)
+Assignment Operators: Used to assign values to variables.
+
+Assignment (=)
+Compound assignment operators (+=, -=, *=, /=, %=)
+Comparison Operators: Used to compare values.
+
+Equal to (==)
+Not equal to (!=)
+Greater than (>)
+Less than (<)
+Greater than or equal to (>=)
+Less than or equal to (<=)
+Logical Operators: Used to perform logical operations.
+
+AND (&&)
+OR (||)
+NOT (!)
+Bitwise Operators: Operate on individual bits of numbers.
+
+Bitwise AND (&)
+Bitwise OR (|)
+Bitwise XOR (^)
+Bitwise NOT (~)
+Left shift (<<)
+Right shift (>>)
+Unsigned right shift (>>>)
+Conditional (Ternary) Operator: A shorthand for if-else statements.
+
+?:
+Instanceof Operator: Checks whether an object is an instance of a particular class or interface.
+
+instanceof
+Unary Operators: Operate on a single operand.
+
+Unary plus (+)
+Unary minus (-)
+Increment (++)
+Decrement (--)
+Logical complement (!)
+Bitwise complement (~)
+String Concatenation Operator: Used to concatenate strings.
+
+(+) can be used to concatenate strings.
+Each operator has specific rules and precedence that govern their usage within expressions in Java.
+--------------------------------------------------------------------------------------------------------
+In Java, operators are categorized based on the number of operands they work with: unary, binary, and ternary operators.
+
+Unary Operators:
+
+Unary operators work with a single operand.
+Examples:
+Unary plus (+): Represents positive values (e.g., +5).
+Unary minus (-): Represents negative values (e.g., -5).
+Increment (++) and Decrement (--): Used to increase or decrease the value of a variable by 1.
+Logical complement (!): Reverses the logical state of its operand.
+Bitwise complement (~): Inverts the bits of its operand.
+And more...
+Example:
+int a = 5;
+int b = -a; // Unary minus
+int c = ++a; // Increment
+boolean flag = true;
+boolean oppositeFlag = !flag; // Logical complement
+
+
+
+Binary Operators:
+
+Binary operators work with two operands.
+Examples:
+Addition (+), Subtraction (-), Multiplication (*), Division (/), Modulus (%): Basic arithmetic operations.
+Assignment (=): Assigns the value on the right to the variable on the left.
+Comparison operators: Compare two values (e.g., ==, !=, >, <, >=, <=).
+Logical operators: Combine two boolean expressions (e.g., && for AND, || for OR).
+Bitwise operators: Operate on individual bits (e.g., &, |, ^).
+And more...
+Example:
+int x = 10;
+int y = 20;
+int sum = x + y; // Addition
+boolean isEqual = (x == y); // Comparison
+
+Ternary Operator:
+
+The ternary operator is unique as it takes three operands.
+It's a conditional operator that evaluates a boolean expression and returns one of two values, depending on whether the expression is true or false.
+Syntax: condition ? value1 : value2
+If the condition is true, it returns value1; otherwise, it returns value2.
+Example:
+int a = 5;
+int b = 10;
+int max = (a > b) ? a : b; // Ternary operator to find the maximum value
+These operators form the backbone of expression evaluation in Java, allowing manipulation, comparison, and decision-making based on the given conditions and operands.
+
+
+
