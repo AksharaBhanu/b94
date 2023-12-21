@@ -16,7 +16,7 @@ public class Demo9 {
 		int s=100>5? 5:'b';
 		System.out.println(s);
 		
-		System.out.println(10>50?"hi":"bye");
+		System.out.println((10>50 && 10> 500)?"hi":"bye");
 		
 
 	}
