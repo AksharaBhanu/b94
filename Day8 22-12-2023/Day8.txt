@@ -1,0 +1,29 @@
+controle statements
+1. condition statements -----> if    switch---> decide whether code to be executed or skipped based on condition
+2. looping statements
+3. control transfer statement (jumping statements)
+
+
+if(condtion)
+{
+  //body
+}
+
+if-else
+if-else if
+if-else if -else if
+if-else if-else
+if-else if -else if-else  -->> ==   switch
+
+1. we can write empty switch block (without any case section)
+2. if the key is matching with case value then respective body is executed
+3. after every case we use break statemnet
+4. datatype of key and case value must be same (auto widening is allowed)
+5. key can be int (byte short int char) String or Enum  (Not supported long float double boolean)
+6. default case--> if key is not matching with any of the case value then default is executed
+7. there can only one default section and in any location
+8. swith supports only == comparision
+9. after entering the switch - it will exit the switch block if there is a break or end of switch block
+
+
+Homewor: from which JDK version supports String in switch
