@@ -1,0 +1,14 @@
+to execute a set of code multiple times we use looping statements
+1. for loop	
+		a. for i
+		b. for each	
+2. while loop
+		a. while
+		b. do-while
+
+
+
+for loop
+1. initialization section: optional , used to initialize the counter var, but we can write any valid java statement
+2. condtion section: optional ->default is true, used to check the condtion , we can write any boolean expression
+3. update section:optional , used to change the counter var, but we can write any valid java statement

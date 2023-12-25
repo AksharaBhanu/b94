@@ -27,3 +27,5 @@ if-else if -else if-else  -->> ==   switch
 
 
 Homewor: from which JDK version supports String in switch
+
+TriDeviFashions
