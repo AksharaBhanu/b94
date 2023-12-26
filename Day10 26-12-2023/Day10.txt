@@ -1,0 +1,58 @@
+In Java, the break statement is used to terminate the loop immediately, regardless of its condition. When a break statement is executed inside a loop, the loop is terminated, and the program control resumes at the next statement which is below the loop. 
+
+In Java, the continue statement is used to skip the current iteration of a loop and proceed to the next iteration. When a continue statement is executed inside a loop, the remaining code in that iteration of the loop is skipped, and the loop's condition is immediately re-evaluated for the next iteration
+
+A nested loop in Java is a loop within another loop. The "inner loop" will be executed one time for each iteration of the "outer loop". This concept is often used for tasks that require repetitive operations on multi-dimensional data structures, like arrays or matrices.
+
+Here's an example to illustrate a basic nested for loop in Java, which prints a 3x3 grid of numbers:
+
+
+        for (int i = 1; i <= 3; i++) { // outer loop
+
+            for (int j = 1; j <= 3; j++) { // inner loop
+                System.out.print(i * j + " "); // prints the product of i and j
+            }
+
+            System.out.println(); // prints a new line after each iteration of the inner loop
+        }
+
+In this example:
+
+The outer loop iterates three times, with i taking values from 1 to 3.
+For each iteration of the outer loop, the inner loop also iterates three times, with j taking values from 1 to 3.
+Within the inner loop, the program prints the product of i and j.
+After the inner loop completes its iteration, the outer loop moves to the next line (System.out.println();), making it easier to see the structure of the grid.
+When this program runs, it will output a 3x3 grid where the values are the products of the current values of i and j:
+
+output
+1 2 3 
+2 4 6 
+3 6 9 
+
+Nested loops are powerful, but they can also lead to performance issues if not used carefully, especially with large datasets,
+
+Pattern printing
+ in Java often involves using nested loops to create various shapes and designs with characters or numbers. Here's an example of a simple pattern printing program that creates a right-angled triangle pattern using asterisks (*). The number of lines in the triangle will be determined by the value of a variable, say n.
+ 	int n = 5; // Number of lines in the triangle
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* "); // Print asterisk
+            }
+            System.out.println(); // Move to the next line
+        }
+
+In this example:
+
+The outer loop (for (int i = 1; i <= n; i++)) controls the number of lines in the triangle.
+The inner loop (for (int j = 1; j <= i; j++)) controls the number of asterisks printed on each line.
+For each iteration of the outer loop, the inner loop runs i times, printing i asterisks. This creates a pattern where the first line has 1 asterisk, the second line has 2, and so on.
+When n is set to 5, the output of this program will be:
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+You can create many different patterns, such as inverted triangles, diamonds, or pyramids, by modifying the logic of the nested loops and the conditions inside them.
