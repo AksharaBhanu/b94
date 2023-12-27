@@ -1,0 +1,71 @@
+if there is nested for loop and break is present in inner for loop , waht happes?
+--it will exit only from inner for loop
+
+how to break both the for loop ?
+if inner for loop breaks , i want to break outer for loop also
+
+
+can we use break inside while loop?
+yes
+
+can we use continue inside while loop?
+yes
+
+can we write while loop inside a while loop?
+yes
+
+can we write for loop inside a while loop?
+yes
+
+
+what is entry controlled loop?
+In Java, an entry-controlled loop is a loop structure where the condition for loop execution is checked before entering the loop body.
+ If the condition is false initially, the loop body will not be executed at all. In other words, the loop is entered only if the condition is true.
+
+The most commonly used entry-controlled loop in Java is the "while" loop. Here's the basic syntax of a "while" loop:
+
+while (condition) {
+    // Code to be executed repeatedly as long as the condition is true
+}
+In the "while" loop, the condition is evaluated before the loop body is executed. 
+If the condition is true, the loop body is executed, and then the condition is checked again.
+This process continues until the condition becomes false, at which point the loop terminates, and the program continues with the code after the loop.
+
+int i = 1;
+while (i <= 5) {
+    System.out.println("Iteration " + i);
+    i++;
+}
+In this example, the loop will execute as long as the condition i <= 5 is true. Once i becomes 6,
+ the condition becomes false, and the loop terminates.
+
+what is exit controlled loop?
+
+In Java, an exit-controlled loop is a loop structure where the condition for loop execution is checked after the loop body has been executed at least once.
+This means that the loop body is guaranteed to execute at least once, even if the condition is initially false. After the first iteration, the loop condition is checked, 
+and if it's true, the loop continues to execute. If the condition is false, the loop terminates.
+
+The most commonly used exit-controlled loop in Java is the "do-while" loop. Here's the basic syntax of a "do-while" loop:
+
+
+do {
+    // Code to be executed at least once
+} while (condition);
+In the "do-while" loop, the loop body is executed first, and then the condition is checked. 
+If the condition is true, the loop continues to execute, repeating the process. If the condition is false after the first iteration, the loop terminates.
+
+Here's an example of a "do-while" loop in Java:
+
+
+int i = 1;
+do {
+    System.out.println("Iteration " + i);
+    i++;
+} while (i <= 5);
+In this example, the loop body is executed at least once because the condition i <= 5 is true initially. 
+After the first iteration, the condition is checked again, and if it's still true, the loop continues. 
+It repeats until the condition becomes false, at which point the loop terminates.
+
+To summarize, an exit-controlled loop in Java, like the "do-while" loop, 
+ensures that the loop body is executed at least once, and the condition is checked after 
+each iteration to determine whether the loop should continue or terminate.
