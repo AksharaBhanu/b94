@@ -1,0 +1,9 @@
+accept the age from the user and inform whether he/she can vote
+accept 2 numbers from user and print the largest number
+accept a number from user and check if it is odd or even number (integer) 
+accept a number and print sum of 1 to n --> 5 --> 1+2+3+4+5
+find the factorial of a given number
+print multiplication table of a given number
+verify pin and block the card
+check if the given number is prime number or not
+print all the prime numbers between 1 to 100
