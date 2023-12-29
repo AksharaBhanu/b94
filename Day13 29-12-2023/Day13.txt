@@ -1,0 +1,11 @@
+Prime Number Check: Writing a Java program to determine if a given number is prime. This includes handling edge cases and ensuring the code is efficient.
+
+Loop Operations: Different examples were provided to illustrate the use of for, while, and do-while loops in various scenarios. These examples show how to manipulate and process data using loops.
+
+Input Handling: The use of the Scanner class in Java to take user input and integrate it into the program, particularly in the context of checking for prime numbers.
+
+Digit Manipulation in Numbers: Problems related to extracting or deleting the last digit of a number using modular arithmetic and division, demonstrating how to manipulate individual digits of a number.
+
+Conditional Statements and Control Flow: Examples demonstrating the use of if-else statements, return statements, and other control flow mechanisms in Java.
+
+Optimizing Code and Handling Edge Cases: Discussions on improving the efficiency of Java code and how to handle unusual or extreme cases, such as invalid inputs.
