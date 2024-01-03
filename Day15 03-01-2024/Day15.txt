@@ -1,0 +1,64 @@
+	for i			for each
+1.any purpose			1. only for array or collections
+2. reverse order possible	2. No
+3. skip element			3. No
+4. read/write array		4. only read
+5. slow				5. fast
+
+In Java, a 2D array is essentially an array of arrays. It's like a grid or a table where each cell can hold a value. 
+
+Declaration
+To declare a 2D array, you specify the type of elements it will hold followed by two sets of square brackets.
+For example, for an array of integers, you'd declare it like this:
+
+int[][] myArray;
+
+Initialization
+You can initialize a 2D array in various ways.
+
+1. Static Initialization: Here, you specify the elements at the time of declaration.
+
+int[][] myArray = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+
+2.Dynamic Initialization: In this method, you specify the size of the array and initialize its elements later.
+
+int[][] myArray = new int[3][3]; // 3 rows and 3 columns
+Then you can fill the array like this:
+myArray[0][0] = 1;
+myArray[0][1] = 2;
+// and so on...
+
+Accessing Elements
+You access an element in a 2D array by specifying the row index and the column index:
+
+
+int x = myArray[0][1]; // This will get the value 2 from the example above
+
+
+Iterating Over a 2D Array
+You often use nested loops to iterate over a 2D array:
+This example prints all the elements of myArray, each row on a new line.
+for(int i = 0; i < myArray.length; i++) {
+    for(int j = 0; j < myArray[i].length; j++) {
+        System.out.print(myArray[i][j] + " ");
+    }
+    System.out.println();
+}
+
+
+
+Using a for-each loop, also known as the enhanced for loop, is an elegant and simple way to iterate through elements of a 2D array in Java. This type of loop is especially useful when you need to process all elements of an array but don't need to know the index of each element.
+
+
+        for (int[] innerArray : myArray) { // Loop through each inner array
+            for (int element : innerArray) { // Loop through each element of the inner array
+                System.out.print(element + " "); // Print each element
+            }
+            System.out.println(); // New line after each row
+        }
+    }
+}
