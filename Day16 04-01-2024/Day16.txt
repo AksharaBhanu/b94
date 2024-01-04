@@ -1,0 +1,21 @@
+method
+1. reusable block of statements with a specific name
+2. saves time,space, reusable and easy maintanance
+3. to execute method we must call it
+4. we can call a method any number of times
+5. in java main method is always the starting point
+6. we call a method inside method 
+7. But we cant write a method inside other method
+8. in java we have 2 types of methods
+   a. static method--> called using class name
+   b. non-static method--> called using object/ref variable
+9. we can call any method from any other method - we should ensure that there is no infite loop
+10. a method can call itself - recursive method
+11.while calling the method number of arg & data type should match
+
+12. void--> this method will not return any value
+13.  if the return type is void we should write empty return statement--> return;
+14.  if we dont write empty return statement, compiler writes it
+15. if the return type is other than void then it is mandatory to write return statement
+16. we can not write any code after return statement inside the same block
+17. we can not return multiple values at a time - we can use array or collection
