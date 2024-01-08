@@ -1,0 +1,101 @@
+OOPS
+object: things arround us
+ex: 
+laptop
+tv
+table
+sofa
+book
+pen
+chair
+bed
+phone
+
+pen
+char of pen
+refil cap nib holder white color brand ink color...
+
+use of pen
+writing
+pen fighting
+papre weight
+book mark
+craft
+poke someone
+tention reducer
+
+chair
+char--> wood , legs (3, 4 1) ,arm rest,back support
+rotate, wheel, hight, massage
+
+
+use
+sitting
+climb
+fighting
+game- musical chair
+sleep
+eathing
+writing
+
+ever object contains char & behaviour
+in java object contains var & methods
+
+char
+var
+data memeber
+property
+attribute
+
+behaviour
+methods
+memeber function
+function
+procedure..
+
+these variables and methods are calleds members
+to access them we use . --> access operator
+
+
+what is class?
+--> class is a blue print or template
+
+what is object?
+copy of the class is called as object
+copy--> instance
+
+in java we use new keyword to create an object
+in java we use constructor to intialize the object
+
+
+class Employee
+{
+	
+}
+public class Demo2 {
+	public static void main(String[] args) {
+		String s1=new String("Bhanu");
+		System.out.println(s1);
+		
+		Employee e1=new Employee();
+		System.out.println(e1);
+		
+		Employee e2=new Employee();
+		System.out.println(e2);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
