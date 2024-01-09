@@ -1,0 +1,72 @@
+what is class?
+class is a blue print/ template
+
+what class contains?
+members---> variable & methods & blocks inner class
+
+how to create a class?
+class A
+{
+   A()
+  {
+
+  }
+
+public static void m1()
+{
+
+}
+
+}
+
+
+how to create object of the class?
+using new keyword
+example:
+A a1=new A();
+
+A---> class name or user defined data type
+a1---> ref variable
+= --->assignment operator
+new --> keyword to create an object
+A()--> calling the constructor
+   
+what is a constructor?
+special method whose name is always same as the class name
+it will not have any return type not even void
+it is used to initialize the non-static data member of the object
+to store value in non-static variable of the object
+
+How to access a member of the object/class?
+using access operator --> . (dot)
+
+what type of variable we can declare inside the class?
+any type
+
+can we create any number of object of a class?
+yes
+
+an object can it be ref by multiple ref var?
+yes
+
+a ref var can it point to multiple object?
+no
+
+DT
+primitive--> byte short int long float double boolean char
+non-primitve--> class array interface enum
+
+
+we have 2 class, Dog and Belt, can i create Belt object inside Dog class?
+yes
+
+inside a class, can we declare a variable which is of type
+1. primitive---> yes
+2. non-primtive--> yes
+3. built in class type---> yes
+4. user defined class type--> yes
+
+When do we use this keyword?
+to access global variable we use this keyword , when its name is same as a local variable
+
+
